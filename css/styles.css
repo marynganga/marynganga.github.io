@@ -1,8 +1,26 @@
-body {
-  background-image: url("image1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed
+body {}
+
+.jumbotron {
+  text-align: center;
+  background-color: #f2d7d5;
+  font-family: fantasy;
+  border: 2px solid #A93226;
+  color: #7b241c;
+}
+
+.jumbotron ul {
+  display: inline;
+}
+
+.jumbotron li {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.well {
+  background-color: #F9EBEA;
+  font-size: 16px;
+  border: 2px solid #A93226;
 }
 
 .portrait {

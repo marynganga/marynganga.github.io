@@ -40,13 +40,17 @@ h1, h2, h3 {
 }
 
 .well {
-  background-color: #f2d7d5;
   font-size: 16px;
   border: 2px solid #A93226;
+  background-color: #f2d7d5;
 }
 
 .well>ul li {
   list-style-type: none;
+}
+
+.panel {
+  border: 2px solid #A93226;
 }
 
 .panel-title {

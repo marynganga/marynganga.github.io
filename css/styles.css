@@ -1,9 +1,14 @@
-body {}
+body {
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Lobster', cursive;
+}
 
 .jumbotron {
   text-align: center;
   background-color: #f2d7d5;
-  font-family: fantasy;
   border: 2px solid #A93226;
   color: #7b241c;
 }
@@ -13,18 +18,62 @@ body {}
 }
 
 .jumbotron li {
+  text-align: center;
   list-style-type: none;
-  padding-right: 10px;
+  padding: 20px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: 'Pacifico', cursive;
+}
+
+.jumbotron li>a {
+  text-decoration: none;
+  color: black;
+}
+
+.jumbotron li>a:hover {
+  color: #7b241c;
+}
+
+.jumbotron li>a:active {
+  color: #f2d7d5;
 }
 
 .well {
-  background-color: #F9EBEA;
+  background-color: #f2d7d5;
   font-size: 16px;
   border: 2px solid #A93226;
+}
+
+.well>ul li {
+  list-style-type: none;
+}
+
+.panel-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.panel-body {
+  font-size: 16px;
+}
+
+.panel-body>img {
+  width: 500px;
+  height: 700px;
+}
+
+.panel-footer {
+  font-size: 16px;
+}
+
+.portfolio {
+  text-align: center;
 }
 
 .portrait {
   width: 300px;
   height: 200px;
   float: left;
+  border: 2px solid #7b241c;
 }
